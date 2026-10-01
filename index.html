@@ -132,6 +132,8 @@ li::marker{color:var(--accent);}
 .edu h3{font-size:15.5px; font-weight:600;}
 .edu .meta{color:var(--muted); font-size:13.5px; margin-top:4px;}
 .edu .yr{font-family:var(--mono); font-size:12px; color:var(--muted); white-space:nowrap;}
+.edu + .edu{margin-top:10px;}
+.edu > div:first-child{flex:1 1 280px; min-width:0;}
 
 footer{border-top:1px solid var(--line); margin-top:8px; padding-top:18px;
   font-family:var(--mono); font-size:12px; color:var(--muted);}
@@ -169,6 +171,31 @@ footer{border-top:1px solid var(--line); margin-top:8px; padding-top:18px;
     <section>
       <div class="eyebrow">Profile</div>
       <p class="lede">I design, automate, and operate cloud infrastructure on <strong>AWS and Azure</strong> — Kubernetes platforms on Amazon EKS, Terraform-driven Infrastructure as Code, and CI/CD pipelines that take a commit all the way to a verified release. My work has covered a national-scale digital identity system handling high-volume verification traffic, a high-traffic ticketing platform for a nationwide cricket league, and serverless products for clients in Norway. AWS Certified Solutions Architect and CloudOps Engineer (Associate).</p>
+    </section>
+
+    <section>
+      <div class="eyebrow">Education</div>
+      <div class="edu">
+        <div>
+          <h3>B.Sc. in Software Engineering</h3>
+          <div class="meta">University of Dhaka · CGPA 3.41 / 4.00</div>
+        </div>
+        <div class="yr">2020 — 2024</div>
+      </div>
+      <div class="edu">
+        <div>
+          <h3>HSC, Science</h3>
+          <div class="meta">Dhaka Residential Model College · GPA 5.00 / 5.00</div>
+        </div>
+        <div class="yr">2017 — 2019</div>
+      </div>
+      <div class="edu">
+        <div>
+          <h3>SSC, Science</h3>
+          <div class="meta">Bogra Zilla School, Bogra · GPA 5.00 / 5.00</div>
+        </div>
+        <div class="yr">2009 — 2017</div>
+      </div>
     </section>
 
     <section>
@@ -290,23 +317,13 @@ footer{border-top:1px solid var(--line); margin-top:8px; padding-top:18px;
     <section>
       <div class="eyebrow">Achievements</div>
       <div class="awards">
-        <div class="award"><b>Champion</b><span>DevOps Hackathon, 12th IUT CSE Fest (2024)</span></div>
         <div class="award"><b>1st Runner-Up</b><span>Microservice &amp; DevOps Hackathon, BUET CSE Fest (2024)</span></div>
+        <div class="award"><b>2nd Runner-Up</b><span>DevOps Hackathon, 11th National IUT CSE Fest (2024)</span></div>
         <div class="award"><b>National Winner</b><span>Bangladesh Junior Science Olympiad (2017) · Bangladesh Astronomical Olympiad (2016, 2017)</span></div>
         <div class="award"><b>Regional Winner</b><span>Bangladesh Mathematical Olympiad (2015)</span></div>
+        <div class="award"><b>Regional Winner</b><span>Grameenphone–Prothom Alo iGen (2015)</span></div>
         <div class="award"><b>National Champion</b><span>Camper, HSBC Prothom Alo Vasha Protijog (2014)</span></div>
         <div class="award"><b>1st &amp; 2nd Prize</b><span>38th and 37th National Science and Technology Week, Divisional Round (2017, 2016)</span></div>
-      </div>
-    </section>
-
-    <section>
-      <div class="eyebrow">Education</div>
-      <div class="edu">
-        <div>
-          <h3>B.Sc. in Software Engineering</h3>
-          <div class="meta">University of Dhaka · CGPA 3.41 / 4.00</div>
-        </div>
-        <div class="yr">2021 — 2025</div>
       </div>
     </section>
 
