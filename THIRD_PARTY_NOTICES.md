@@ -2,7 +2,7 @@
 
 ## Sumi (astro-sumi) — fluid ink simulation
 
-`fluid-ink.js` is the compiled `<fluid-ink>` element from https://github.com/kpab/astro-sumi, and the colour/type tokens and hero/divider ink bands in `index.html` are adapted from the same theme.
+`fluid-ink.js` is the compiled `<fluid-ink>` element from https://github.com/kpab/astro-sumi, and the hero/divider ink bands and the design-token structure in `index.html` are adapted from the same theme.
 
 ```
 MIT License
@@ -30,4 +30,4 @@ SOFTWARE.
 
 ## Fonts
 
-Source Serif 4 and JetBrains Mono (variable, Latin subsets) in `fonts/` are licensed under the SIL Open Font License 1.1 — see `fonts/LICENSE.txt`.
+IBM Plex Mono and IBM Plex Sans (Latin subsets) in `fonts/` are Copyright © 2017 IBM Corp., licensed under the SIL Open Font License 1.1 — see `fonts/LICENSE.txt`.

@@ -14,73 +14,10 @@
   try { var t = localStorage.getItem('theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
 </script>
 <style>
-@font-face {
-  font-family: "Source Serif 4";
-  font-style: normal;
-  font-weight: 400 700;
-  font-display: swap;
-  src: url("fonts/source-serif-4-latin.woff2") format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
-    U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-  font-family: "Source Serif 4";
-  font-style: normal;
-  font-weight: 400 700;
-  font-display: swap;
-  src: url("fonts/source-serif-4-latin-ext.woff2") format("woff2");
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
-    U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020,
-    U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-
-@font-face {
-  font-family: "Source Serif 4";
-  font-style: italic;
-  font-weight: 400 700;
-  font-display: swap;
-  src: url("fonts/source-serif-4-italic-latin.woff2") format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
-    U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-  font-family: "Source Serif 4";
-  font-style: italic;
-  font-weight: 400 700;
-  font-display: swap;
-  src: url("fonts/source-serif-4-italic-latin-ext.woff2") format("woff2");
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
-    U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020,
-    U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-
-
-
-@font-face {
-  font-family: "JetBrains Mono";
-  font-style: normal;
-  font-weight: 400 600;
-  font-display: swap;
-  src: url("fonts/jetbrains-mono-latin.woff2") format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
-    U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-  font-family: "JetBrains Mono";
-  font-style: normal;
-  font-weight: 400 600;
-  font-display: swap;
-  src: url("fonts/jetbrains-mono-latin-ext.woff2") format("woff2");
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
-    U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020,
-    U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
+@font-face{font-family:"IBM Plex Mono";font-style:normal;font-weight:400;font-display:swap;src:url("fonts/ibm-plex-mono-400-latin.woff2") format("woff2");unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:"IBM Plex Mono";font-style:normal;font-weight:500;font-display:swap;src:url("fonts/ibm-plex-mono-500-latin.woff2") format("woff2");unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:"IBM Plex Mono";font-style:normal;font-weight:600;font-display:swap;src:url("fonts/ibm-plex-mono-600-latin.woff2") format("woff2");unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:"IBM Plex Sans";font-style:normal;font-weight:400 600;font-display:swap;src:url("fonts/ibm-plex-sans-latin.woff2") format("woff2");unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
 </style>
 <style>
 /* Single column "dossier": full-bleed hero with a cursor-reactive ink field, then numbered-free sections on a 1072px measure.
@@ -92,52 +29,25 @@
 
   
   
-  --washi-100: #ffffff;
-  --washi-200: #faf8f5;
-  --washi-300: #f3f0ea;
-  --washi-400: #e8e4db;
-
-  
-  --sumi-100: #e9e7e1;
-  --sumi-400: #5a5854;
-  --sumi-700: #333333;
-  --sumi-800: #1a1a1a;
-  --sumi-900: #101114;
-  --sumi-950: #0b0c0e;
-
-  
-  --shu-500: #c73e3a;
-  --shu-400: #c85a52;
-
-  
-  --color-bg: light-dark(var(--washi-200), var(--sumi-950));
-  --color-bg-subtle: light-dark(var(--washi-300), var(--sumi-900));
-  --color-bg-raised: light-dark(var(--washi-100), #14161a);
-
-  --color-fg: light-dark(var(--sumi-800), var(--sumi-100));
-  --color-fg-muted: light-dark(var(--sumi-400), rgba(233, 231, 225, 0.62));
-  
-  --color-fg-faint: light-dark(rgba(26, 26, 26, 0.62), rgba(233, 231, 225, 0.55));
-
-  --color-rule: light-dark(rgba(26, 26, 26, 0.14), rgba(233, 231, 225, 0.14));
-  --color-rule-strong: light-dark(rgba(26, 26, 26, 0.28), rgba(233, 231, 225, 0.28));
-
-  --color-accent: light-dark(var(--shu-500), var(--shu-400));
-  --color-accent-fg: light-dark(var(--washi-200), var(--sumi-950));
-
+--color-bg: light-dark(#FAF4E9, #12100D);
+  --color-bg-subtle: light-dark(#F0E7D6, #16130F);
+  --color-bg-raised: light-dark(#FFFDF8, #1C1814);
+  --color-fg: light-dark(#2A1E12, #F1E9DC);
+  --color-fg-muted: light-dark(color-mix(in srgb, #2A1E12 66%, transparent), color-mix(in srgb, #F1E9DC 64%, transparent));
+  --color-fg-faint: light-dark(color-mix(in srgb, #2A1E12 58%, transparent), color-mix(in srgb, #F1E9DC 55%, transparent));
+  --color-rule: light-dark(rgba(42, 30, 18, 0.14), rgba(241, 233, 220, 0.13));
+  --color-rule-strong: light-dark(rgba(42, 30, 18, 0.28), rgba(241, 233, 220, 0.28));
+  --color-accent: light-dark(#B45309, #F2A33A);
+  --color-accent-fg: light-dark(#FAF4E9, #12100D);
   --color-selection-bg: var(--color-accent);
   --color-selection-fg: var(--color-accent-fg);
+  --ink-canvas-bg: light-dark(#FAF4E9, #12100D);
+  --ink-pigment: light-dark(#3A2A1A, #F6E7CF);
+  --ink-accent: light-dark(#B45309, #F2A33A);
 
   
-  --ink-canvas-bg: light-dark(var(--washi-200), var(--sumi-950));
-  --ink-pigment: light-dark(#1a1a1a, #e8e6e0);
-  --ink-accent: light-dark(var(--shu-500), var(--shu-400));
-
-  
-  --font-serif: "Source Serif 4", "Source Serif Pro", "Yu Mincho", YuMincho,
-    "Hiragino Mincho ProN", "Noto Serif JP", "Songti SC", serif;
-  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo,
-    Consolas, monospace;
+  --font-serif: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
 
   --text-xs: 0.6875rem; 
   --text-sm: 0.8125rem; 
